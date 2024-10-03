@@ -1,0 +1,82 @@
+html, body {
+    font-family: "montserrat", sans-serif;
+font-size: 1.2em;
+padding: 0;
+margin: 0;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+    background-color: #f46524;
+    color: #fff
+}
+h1,h2{
+    font-weight: normal;
+}
+a:link, a:visited, a:active{
+    color: #f46524;
+}
+a:hover{
+    color: #f9a577;
+}
+main, section{
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#section-knowledge {
+    background-color: #ccc;
+}
+#imgportfolio {
+    width: 50%;
+    height: 95%;
+       float: right;
+    margin: 0 0 20px 20px;
+}
+.progress-bar{
+    color: white;
+    text-align: center;
+}
+
+#section-contact {
+    text-align: center;
+
+}
+#section-contact a {
+    text-decoration: none;
+}
+#section-contact a::before {
+    content: "[";
+}
+#section-contact a::after {
+    content: "]";
+}
+#section-contact ul{
+    list-style: none;
+    padding: 0;
+}
+#section-contact ul li{
+    display: inline;
+    margin: 0 3rem;
+}
+#section-contact form{
+    padding: 0 10rem;
+}
+#section-contact input,
+#section-contact textarea {
+    display: block;
+    width: 100%;
+    padding: 0.3rem 0;
+    margin: 0.5rem 0 1rem 0; 
+    text-align: center;
+    font-size: 1rem;
+}
+#section-contact textarea {
+    height: 4rem;
+}
